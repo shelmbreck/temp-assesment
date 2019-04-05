@@ -1,3 +1,5 @@
+var value = 0;
+
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('add').addEventListener('click', function() {
         positive()
@@ -8,19 +10,15 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 function positive() {
-    var positiveValue = parseInt(document.getElementById('number').value, 1); {
-        positiveValue.textContext
-        value = 0;
+    var positiveValue = parseInt(document.getElementById('display').textContent.value); {
         value++;
-        document.getElementById('add').value = positiveValue;
+        document.getElementById('number').textContent.value = positiveValue;
     }
 }
 
 function negative() {
-    var negativeValue = parseInt(document.getElementById('number').value, 1); {
-        negativeValue.textContent
-        value = 0;
+    var negativeValue = parseInt(document.getElementById('display').textContent.value); {
         value--;
-        document.getElementById('subtract').value = negativeValue;
+        document.getElementById('number').textContent.value = negativeValue;
     }
 }
