@@ -10,15 +10,15 @@ document.addEventListener('DOMContentLoaded', function() {
 })
 
 function positive() {
-    var positiveValue = parseInt(document.getElementById('display').textContent.value); {
+
+    console.log("add")
+    var positiveValue = parseInt(document.getElementById('display').textContent.value)
         value++;
         document.getElementById('number').textContent.value = positiveValue;
-    }
 }
 
 function negative() {
-    var negativeValue = parseInt(document.getElementById('display').textContent.value); {
+    var negativeValue = parseInt(document.getElementById('display').textContent.value)
         value--;
         document.getElementById('number').textContent.value = negativeValue;
-    }
 }
